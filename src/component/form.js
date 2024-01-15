@@ -4,8 +4,9 @@ export const AddContact = ()=>{
     const [pwd,setPwd] = useState('');
     const [message,setMessage] = useState('');
     function containsSpecialChars(str) {
-        const specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
-        return specialChars.test(str);
+      // eslint-disable-next-line
+      const specialChars =/[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+      return specialChars.test(str);
       }
     const addPwd = (password)=>{
         setPwd(password);
