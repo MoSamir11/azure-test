@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const AddContact = ()=>{
+export const PasswordCheck = ()=>{
     const [pwd,setPwd] = useState('');
     const [message,setMessage] = useState('');
     function containsSpecialChars(str) {
