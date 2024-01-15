@@ -9,8 +9,7 @@ export const AddContact = ()=>{
       }
     const addPwd = (password)=>{
         setPwd(password);
-        console.log(`12--> ${password.length}`);
-        if(password.length==0){
+        if(password.length===0){
             setMessage('');
             return;
         }
